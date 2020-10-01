@@ -24,6 +24,10 @@ html,body{
  line-height:44px;
  font-weight:700
 }
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  #container-lrg { display: none; }
+  .mobile-hide{ display: none; }
+}
 .nav-link {
  font-size:19px;
  line-height:44px;
