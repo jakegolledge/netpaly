@@ -1,8 +1,7 @@
-RewriteCond %{THE_REQUEST} ^GET.*index\.html [NC]
-RewriteRule (.*?)index\.html/*(.*) /$1$2 [R=301,NE,L]
-
 Options +MultiViews
 RewriteEngine On
+RewriteCond %{THE_REQUEST} ^GET.*index\.html [NC]
+RewriteRule (.*?)index\.html/*(.*) /$1$2 [R=301,NE,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
