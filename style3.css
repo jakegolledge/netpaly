@@ -4,6 +4,8 @@
 }
 html,body{
   height: 100%;
+  color: #4A6163;
+  background-color:#f9faf4;
 }
 
 *,
@@ -18,6 +20,11 @@ html,body{
 }
 .header {
  padding-top:40px;
+}
+.separator{
+  width: 6%;
+  margin-left: 47%;
+  border-top: 2px solid #4A6163;
 }
 .logo {
  font-size:calc(120% + 1vw);
@@ -79,12 +86,13 @@ a {
 .text-center {
  text-align:center
 }
-img {
- max-width:100%
+.imgtop {
+ height: 30%;
 }
 
 .imgref{
   float: left;
+  max-width:100%
 }
 
 .fl{
@@ -319,7 +327,7 @@ img {
  color:#FFCB9A  
 }
 .blue-flat .secondary-color {
- color:#116466;
+ color:#f9a66c;
 }
 .blue-flat .svg-fill {
  fill:#fff
@@ -327,19 +335,19 @@ img {
 
 /*white*/
 .white-flat {
- background-color:#fff;
+ background-color:#f9faf4;
 }
 .white-flat .secondary-bg {
  background-color:#041029
 }
 .white-flat .accent-bg {
- background-color:#116466
+ background-color:#6BA292
 }
 .white-flat .primary-color {
- color:#2C3531
+ color:#f9a66c
 }
 .white-flat .secondary-color {
- color:#116466;
+ color:#6BA292;
 }
 .white-flat .svg-fill {
  fill:#0065ff
@@ -348,7 +356,11 @@ img {
   height: 200px;
 }
 .contacthref{
-  color:#116466;
+  color:#fff;
+  text-decoration: underline;
+}
+.contacthrefbody{
+  color:#f9a66c;
   text-decoration: underline;
 }
 .contact {
@@ -387,10 +399,16 @@ img {
   width: 300px;
   height: 100%;
   margin: 0 20px;
-  opacity: 0.9;
+  opacity: 0.95;
   transition: .5s ease;
-  background-color: #116466;
+  background-color: #6BA292;
 }
+
+.overlay2 {
+  width: 1920px;
+  height: 300px;
+}
+
 
 .col-4:hover .overlay {
   opacity: 1;
@@ -402,6 +420,17 @@ img {
   left: 50%;
   color: #fff;
   top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text2 {
+  position: absolute;
+  left: 50%;
+  color: #fff;
+  top: 40%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
