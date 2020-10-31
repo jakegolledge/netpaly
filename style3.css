@@ -374,6 +374,7 @@ a {
 }
 .compimg{
   height: 200px;
+  max-width: 60%;
 }
 .contacthref{
   color:#fff;
