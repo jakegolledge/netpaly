@@ -6,6 +6,7 @@ html,body{
   height: 100%;
   color: #4A6163;
   background-color:#f9faf4;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -21,6 +22,25 @@ html,body{
 .header {
  padding-top:40px;
 }
+.topnav a.active{
+  color: #f9a66c;
+  background-color: #f9faf4;
+  border-bottom: 2px solid #f9a66c;
+}
+.topnav a:hover {
+  color: #f9a66c;
+  border-bottom: 2px solid #f9a66c;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 2px solid #f9faf4;
+}
+
 .separator{
   width: 6%;
   margin-left: 47%;
