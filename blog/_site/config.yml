@@ -1,1 +1,2 @@
 title: Net Paladin Blog
+permalink: /blog/:title:output_ext
