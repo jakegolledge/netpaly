@@ -1,6 +1,6 @@
 ---
 title: Test2
-layout: np
+layout: default
 ---
 
 Hello!222
