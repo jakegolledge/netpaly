@@ -33,6 +33,7 @@ html,body{
 }
 
 .topnav a {
+  display: inline-block;
   float: left;
   text-align: center;
   padding: 14px 16px;
@@ -41,6 +42,45 @@ html,body{
   border-bottom: 2px solid #f9faf4;
 }
 
+.topnav {
+  display: block;
+  float: left;
+}
+
+ /* Style the navigation menu */
+.burger {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.burger #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.burger a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.burger a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.burger a:hover {
+  background-color: #ddd;
+  color: black;
+}
 .separator{
   width: 6%;
   margin-left: 47%;
@@ -49,11 +89,17 @@ html,body{
 .logo {
  font-size:calc(120% + 1vw);
  line-height:44px;
- font-weight:700
+ font-weight:700;
+ float: left;
 }
 @media screen and (min-width: 0px) and (max-width: 720px) {
   #container-lrg { display: none; }
   .mobile-hide{ display: none; }
+  .mobile-show{ display: all; }
+}
+
+@media screen and (min-width: 719px){
+  .dsk-hide{ display: none; }
 }
 .nav-link {
  font-size:19px;
@@ -64,7 +110,7 @@ html,body{
  margin:0 15px;
 }
 .logo img {
- height:44px;
+ height:44px; 
  display:inherit
 }
 .heading {
@@ -374,7 +420,7 @@ a {
 }
 .compimg{
   height: 200px;
-  max-width: 60%;
+  max-width: 80%;
 }
 .contacthref{
   color:#fff;

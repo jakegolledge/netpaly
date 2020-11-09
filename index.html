@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="style3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<style>
 
@@ -21,12 +22,36 @@
 		<div class="container-lrg">
 		  <div class="flex col-12 spread"><a href=index.html class="logo primary-color">NET PALADIN</a>
 
-		  	<div class="topnav">
+		  	<div class="topnav mobile-hide">
 		  		<a class="active" href="index.html">Home</a>
 		  		<a href="#about">About</a>
 		  		<a href="#services">Services</a>
 		  		<a href="contact.html">Contact Us</a>
 		  	</div>
+
+		  	<div class="burger">
+		  		<div id="myLinks">
+		  			<a href="index.html">Home</a>
+		  			<a href="#about">About</a>
+		  			<a href="#services">Services</a>
+		  			<a href="contact.html">Contact Us</a>
+		  		</div>
+
+		  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    				<i class="fa fa-bars"></i>
+  				</a>
+		  	</div>
+
+		  	<script >
+		  		function myFunction() {
+				  var x = document.getElementById("myLinks");
+				  if (x.style.display === "block") {
+				    x.style.display = "none";
+				  } else {
+				    x.style.display = "block";
+				  }
+				} 
+		  	</script>
 		  	<!--<div><a href="contact.html" class="button mobile-text-center mobile-text-center accent-bg primary-color"> <span> Contact Us </span></a></div>-->
 
 
@@ -46,10 +71,12 @@
 		<section class="section">
 			<div class="container-lrg mb40">
 				<div class="col-12">
-					<h2 class="heading text-center secondary-color ">WHY CYBER SECURITY?</h2>
-
+					<h2 class="heading text-center secondary-color ">WHY CYBER SECURITY</h2>
+					<br>
 					In today's digitalizing economy, cyber crime is now larger than all other forms of organised crime collectively.<br>
+					<br>
 					It is the biggest threat to an evolving business, encompassing both pragmatic risks to competitive advantage, or integrity, and the associated financial risks of compliance failure, including fines from bodies such as the ICO.<br>
+					<br>
 					SMEs are particularly vulnerable. Taking measures to adaquetely protect data and comply with regulation such as GDPR can be difficult, however the significance of these measures only grow with time.<br>
 					<br>
 					Implementing a system to reduce cyber risk doesn't have to be costly or complex.
