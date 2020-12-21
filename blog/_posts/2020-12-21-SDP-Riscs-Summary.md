@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Summary of the SDP Breakout rooms at the RISCS event - 09/11/2020"
 ---
 # Welcome
