@@ -584,3 +584,22 @@ q {font-style: italic;}
 .fading{
   animation:fading 2s
 }@keyframes fading{0%{opacity:0}100%{opacity:1}}
+
+/* Added this for next/prev post functionality - see also layout file - LJ 2020/12/24 */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
