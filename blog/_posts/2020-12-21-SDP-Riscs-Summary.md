@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Summary of the SDP Breakout rooms at the RISCS event - 09/11/2020"
 ---
 # Welcome
@@ -13,8 +13,3 @@ Without further adu, I'll embark on the journey of summarising the five break ou
 There were five different breakout rooms, all looking at areas concerning Software Development Practices (SDP), where it sits in the market and it's representation in academia. Discussions were mainly split into two sections, the barriers and the opportunities.
 These are the breakdown of the main themes and notes of the padlets for each break out room discussion and can be found in the following blog posts.
 
-- [Distributing expertise between users and developers]({% post_url% post_url 2020-12-24-SDP-RISCS-DEBUD.md %})
-- [Embedding SDP in the Higher Education Curriculum]({% post_url% post_url 2020-12-24-SDP-RISCS-ESHEC.md %})
-- [Growing the market for SDP products and services]({% post_url% post_url 2020-12-24-SDP-RISCS-GMSPS.md %})
-- [Threat modelling to bridge design and development]({% post_url% post_url 2020-12-24-SDP-RISCS-TMBDD.md %})
-- [Usability-driven secure design and development]({% post_url% post_url 2020-12-24-SDP-RISCS-UDSDD.md %})
