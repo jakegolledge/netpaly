@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<title>Blog | {{ page.title }}</title>
+	<meta charSet="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="Cyber Security Solutions">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="stylesheet" href="/style3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+
+	</style>
+	</head>
+
+	<body class="font-modern">
+		<div class="white-flat">
+			<header class="header">
+				<div class="container-lrg">
+					<div class="flex col-12 spread"><a href="/index.html" class="logo primary-color">NET PALADIN</a>
+
+					<div class="topnav mobile-hide">
+						<a href="/index.html">Home</a>
+						<a href="/index.html#about">About</a>
+						<a href="/services.html">Services</a>
+						<a href="/index.html/#contact">Contact Us</a>
+						<a class="active" href="/blog.html">Blog</a>
+					</div>
+
+					<script >
+						function myFunction() {
+						  var x = document.getElementById("myLinks");
+						  if (x.style.display === "block") {
+							x.style.display = "none";
+						  } else {
+							x.style.display = "block";
+						  }
+						} 
+					</script>
+					<!--<div><a href="contact.html" class="button mobile-text-center mobile-text-center accent-bg primary-color"> <span> Contact Us </span></a></div>-->
+
+
+					</div>
+				</div>
+		  	</header>
+		</div>
+
+		<div class=" white-flat">
+			<section class="section">
+				<div class="container-lrg mb40">
+					<h2 class="heading text-center secondary-color ">{{ page.title }}</h2>
+					<br>
+					<div class="col-12">
+						{{ content }}
+					</div>
+			  	</div>
+			</section>
+		</div>
+	<!-- Added this to see if we could get a next/prev post function (also made a change to the css) - LJ 2020/12/24 -->
+		<div class="white-flat">	
+			<div class="PageNavigation">
+				{% if page.previous.url %}
+				  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+				{% endif %}
+				{% if page.next.url %}
+				  <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+				{% endif %}
+		 	</div>
+	   </div>
+	</body>
+</html>
