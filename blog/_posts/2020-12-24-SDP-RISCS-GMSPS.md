@@ -2,7 +2,9 @@
 layout: default
 title: "Growing the market for SDP products and services - SDP Breakout Padlet Summary - 09/11/2020"
 ---
-<i> My thoughts and opinions have grown significantly since first penning this write up. After a handful months of trying to get a start up off the ground within this market, my views have matured and in turn I look back at this as a strange mix of naivete and an example of the Dunning-Kruger effect. </i>
+<i> My thoughts and opinions have grown significantly since first penning this write up. After a handful months of trying to get a start up off the ground within this market, my views have matured and in turn I look back at this as a strange mix of naivete and an example of the Dunning-Kruger effect.
+As such, I believe I'll re-write a new, updated version of this subject sometime in the near future. </i>
+
 # Key Themes
 Open source, Cobbler's children, a move for more sociotechnical solutions and forced change vs gradual change.
 
