@@ -15,7 +15,7 @@
 
 	</style>
 	</head>
-
+ 
 	<body class="font-modern">
 		<div class="white-flat">
 			<header class="header">
@@ -25,8 +25,8 @@
 					<div class="topnav mobile-hide">
 						<a href="/index.html">Home</a>
 						<a href="/index.html#about">About</a>
-						<a href="/index.html#services">Services</a>
-						<a href="/contact.html">Contact Us</a>
+						<a href="/services.html">Services</a>
+						<a href="/index.html#contact">Contact Us</a>
 						<a class="active" href="/blog.html">Blog</a>
 					</div>
 
@@ -49,25 +49,26 @@
 		</div>
 
 		<div class=" white-flat">
-		<section class="section">
-			<div class="container-lrg mb40">
-				<h2 class="heading text-center secondary-color ">{{ page.title }}</h2>
-				<br>
-				<div class="col-12">
-					{{ content }}
-				</div>
-		  	</div>
-		</section>
-	</div>
+			<section class="section">
+				<div class="container-lrg mb40">
+					<h2 class="heading text-center secondary-color ">{{ page.title }}</h2>
+					<br>
+					<div class="col-12">
+						{{ content }}
+					</div>
+			  	</div>
+			</section>
+		</div>
 	<!-- Added this to see if we could get a next/prev post function (also made a change to the css) - LJ 2020/12/24 -->
-	<div class="PageNavigation">
-		{% if page.previous.url %}
-		  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-		{% endif %}
-		{% if page.next.url %}
-		  <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-		{% endif %}
-	  </div>
-	  
+		<div class="white-flat">	
+			<div class="PageNavigation">
+				{% if page.previous.url %}
+				  <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+				{% endif %}
+				{% if page.next.url %}
+				  <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+				{% endif %}
+		 	</div>
+	   </div>
 	</body>
 </html>
