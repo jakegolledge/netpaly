@@ -2,9 +2,10 @@
 layout: post
 title: "SDP (Secure Development Practices), ASRTM and UX Design: First Impressions - 09/04/2021"
 ---
-# Welcome
+# What can SDP do?
 There are various SDP processes that can lend to a more secure infrastructure, or to delivery of more secure outputs, that organisations can deploy. Consequently, there are tools geared to enable these processes at stages of development lifecycles, or across them.
-</break>
+
+# ASTRM?
 Application Security Requirements and Threat Management (ASRTM) tools are designed to help organisations deliver secure outputs. This includes designing software that has addressed or considered potential vulnerabilities, and is compliant with the regulation applicable to it.
 
 Effective ASRTM processes allow dynamic identification of development requirements resulting in more secure coding practices and architectural countermeasures. The dynamic attributes of ASRTM tools can provide notable benefits to organisations, as it is commonplace for threats and requirements to not be adapted to specific project application stacks. Especially when considering industry movements toward agile and DevOps methodologies.
