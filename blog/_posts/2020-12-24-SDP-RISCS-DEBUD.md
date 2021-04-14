@@ -24,6 +24,7 @@ What could/is be/being done to help distribute expertise between users and devel
 - Training managers to support users
 - Involve them early in the process (this is in line with AGILE)
 - Identify whats important - collate all stakeholders perspectives and wants and identify whats important and the common goals
-- Peer networks - Communication between organisation ((www.riskledger.com) is a good example of this being used effectively albeit for a slightly different usecase) 
-# (todo this might be a broken link for riskledger)
+- Peer networks - Communication between organisation [Risk Ledger](www.riskledger.com) is a good example of this being used effectively albeit for a slightly different usecase) 
 - Encourage communication and engagement between different groups instead of making assumptions.
+
+If you have any questions or thoughts about this post, feel free to let me know at  <b><a class="contacthrefbody" href="liam@netpaladin.co.uk">liam@netpaladin.co.uk</a></b> and thanks for reading.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SDP (Secure Development Practices), ASRTM and UX Design: First Impressions - 09/04/2021"
+title: "SDP (Secure Development Practices), ASRTM and UX Design: First Impressions"
 ---
 # What can SDP do?
 There are various SDP processes that can lend to a more secure infrastructure, or to delivery of more secure outputs, that organisations can deploy. Consequently, there are tools geared to enable these processes at stages of development lifecycles, or across them.
@@ -24,8 +24,8 @@ Conclusively, there may exist scope for ASTRM tools to capture emerging UX desig
 
 Perhaps ASRTM outputs could provide tangible benefits if deployed within UX design environments?
 
-
-If you have any questions or thoughts about this post, feel free to let me know at  <b><a class="contacthrefbody" href="luke@netpaladin.co.uk">luke@netpaladin.co.uk</a></b>.
+# Contact Information
+Thanks for reading this far, if you have any questions or thoughts about this post, feel free to let me know at  <b><a class="contacthrefbody" href="luke@netpaladin.co.uk">luke@netpaladin.co.uk</a></b>.
 
 # References
 Teixeira, Fabricio, and Caio Braga. [“The State of UX 2020.”](https://trends.uxdesign.cc/) UXdesign.cc, 2020.
