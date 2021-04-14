@@ -5,7 +5,7 @@ title: "Threat modelling to bridge design and development - SDP Breakout Padlet 
 # Key Themes
 Secure development, threat modelling, design, collaboration and the perceived efficacy vs real value.
 
-# Key Themes
+# Summary
 Threat modelling directly effects system design and is embedded in system development. By its nature it forces the creation of explicit requirements, processes and design. Doing so in such a way, that it being secure is ensured by virtue of the activity. It helps teams develop design requirements and security requirements simultaneously and by hosting it collaboratively, helps communicate this shared understanding throughout the entire developing team and the related project managers.
 
 As such, the scope of work can be considered large and time-consuming by management, it gets labelled as extensive upfront investment. Naturally leading into a desire for 'something lightweight'. 

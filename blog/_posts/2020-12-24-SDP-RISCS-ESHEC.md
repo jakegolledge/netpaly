@@ -2,7 +2,7 @@
 layout: default
 title: "Embedding SDP in the Higher Education Curriculum - SDP Breakout Padlet Summary - 09/11/2020"
 ---
-# Main Themes
+# Key Themes
 Co-operation, Specialised information, Change, Curriculum Review
 
 # Summary
