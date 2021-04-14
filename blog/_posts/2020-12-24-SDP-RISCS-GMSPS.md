@@ -22,17 +22,17 @@ The existing infrastructure for growing the market, such as accelerators and gra
 With social changes being slow in companies, there is a perceived difficulty in convincing clients to adopt new security techniques and tools. This is gradually changing. Ransomware attacks and other breaches hitting companies in their pockets and a maturing cyber insurance industry new entries into the market are getting more ammunition when it comes to securing sales. 
 
 # Barriers
-	\item Difficulty in receiving grants (grants specifically tailored to SPD products)
-	\item Difficult for big companies to buy into any kind of social change and smaller companies lack awareness of why security is important
-	\item difficulty in commercialisation of academic research
-	\item Companies have a preference for open source ('free' services)
+-  Difficulty in receiving grants (grants specifically tailored to SPD products)
+-  Difficult for big companies to buy into any kind of social change and smaller companies lack awareness of why security is important
+-  Difficulty in commercialisation of academic research
+-  Companies have a preference for open source ('free' services)
 
 # Opportunities
 
-	\item Combined market of application security and digital design is valued at several billion
-	\item A push for sociotechnical security is occurring (Oct 2020)
-	\item Move to more HCI centred approaches and further away from 'new tool that fixes x'
-	\item Maturation of the cyber security insurance market offers cyber security tool developers a stronger hand to play in deals with potential clients (easier to evaluate the saved cost of the product by lowering insurance costs etc)
+-  Combined market of application security and digital design is valued at several billion
+-  A push for sociotechnical security is occurring (Oct 2020)
+-  Move to more HCI centred approaches and further away from 'new tool that fixes x'
+-  Maturation of the cyber security insurance market offers cyber security tool developers a stronger hand to play in deals with potential clients (easier to evaluate the saved cost of the product by lowering insurance costs etc)
 
 
 # My 'Hot' Takes
