@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: default
 title: "SDP (Secure Development Practices), ASRTM and UX Design: First Impressions"
 ---
+
 # What can SDP do?
 There are various SDP processes that can lend to a more secure infrastructure, or to delivery of more secure outputs, that organisations can deploy. Consequently, there are tools geared to enable these processes at stages of development lifecycles, or across them.
 
